@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const SignupLogin = () => {
-  const [action, setAction] = useState("signup");
+  const [action, setAction] = useState("login");
   const [isVisible, setIsVisible] = useState(false);
   const [formInput, setFormInput] = useState({
     username: "",

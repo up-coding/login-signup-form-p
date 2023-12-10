@@ -2,8 +2,8 @@
 
 :root {
   /*colors*/
-  --primary: #c82586;
-  --secondary: #afb4ff;
+  --primary: #0025aa;
+  --secondary: #03008b;
   --white: #fff;
   --grey: #e2e2e2;
   --grey-2: #5d5d5d;
@@ -22,6 +22,5 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: cornflowerblue;
-  /* background: linear-gradient(var(--secondary), var(--primary)); */
+  background: linear-gradient(var(--primary), var(--secondary));
 }
